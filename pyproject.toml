@@ -1,0 +1,18 @@
+[project]
+name = "portfolio-example"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "hyperopt>=0.2.7",
+    "mads-datasets[torch]>=0.3.14",
+    "mltrainer>=0.2.5",
+    "tomlserializer>=0.2.0",
+]
+
+[dependency-groups]
+dev = [
+    "notebooktester>=0.2.1",
+    "ruff>=0.12.11",
+]

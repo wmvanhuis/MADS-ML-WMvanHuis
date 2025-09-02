@@ -1,0 +1,20 @@
+pre-commit:
+  commands:
+    notebooktester:
+      priority: 1
+      glob: '*.ipynb'
+      run: notebooktester . -v -t 240
+    clean-jupyter:
+      priority: 2
+      files: git ls-files
+      glob: '*.ipynb'
+      run: jupyter nbconvert --clear-output --inplace {staged_files}
+      stage_fixed: true
+    format:
+      priority: 2
+      files: git ls-files
+      glob: '*.{py, ipynb}'
+      run: ruff format {staged_files}
+      stage_fixed: true
+    lychee:
+      run: lychee . --suggest --max-concurrency 32 --cache --exclude toptal --format detailed --max-cache-age 7d
