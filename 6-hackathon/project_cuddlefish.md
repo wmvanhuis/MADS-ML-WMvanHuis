@@ -12,3 +12,5 @@ We used a convolutional neural network (CNN), specifically a U-Net architecture,
 The model achieved a 92% "believability score" as rated by a panel of very confused crabs. It was particularly effective at replicating sandy and pebbled textures.
 
 You can find all the code in the-link-to-your-repo-here
+
+[Go back to Homepage](../README.md)

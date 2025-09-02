@@ -14,9 +14,20 @@ This website is built automatically using GitHub Pages. The main page you're rea
     * Summary of the third week
 1.  **[Hyperparameter ray](./4-hypertuning-ray/summary.md)**
     * A summary of my findings from tuning a Random Forest Classifier.
-2.  **[Hackathon Model: Project Cuddlefish](./6-hackathon/project_cuddlefish.md)**
+1.  **[Hackathon Model: Project Cuddlefish](./6-hackathon/project_cuddlefish.md)**
     * Our award-winning model that predicts the optimal camouflage pattern for a cuttlefish based on its environment.
 1.  **[deployment](./5-deployment/summary.md)**
     * The result of my own deployment
-4.  **[Ethical Reflection: The Cuddlefish Dilemma](./7-ethics/summary.md)**
+1.  **[Ethical Reflection: The Cuddlefish Dilemma](./7-ethics/summary.md)**
     * A critical analysis of the ethical implications of AI-driven camouflage.
+
+
+## How to setup your own portfolio
+- fork this repo
+- go to the **settings** tab on top of your github page
+- on the left-hand menu, click on **Pages**
+- under build and deployment, select `deploy from a branch`
+- select main/root and save
+
+After a few minutes you will see the site is published.
+
