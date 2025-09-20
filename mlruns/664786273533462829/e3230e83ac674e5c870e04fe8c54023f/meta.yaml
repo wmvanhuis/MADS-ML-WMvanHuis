@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/wouter/Documents/HAN/3_Deep%20Learning%20and%20Model%20Deployment/3_Afternoon%20lessons/GIT/MADS-ML-WMvanHuis-1/mlruns/664786273533462829/e3230e83ac674e5c870e04fe8c54023f/artifacts
+end_time: 1758367452575
+entry_point_name: ''
+experiment_id: '664786273533462829'
+lifecycle_stage: active
+run_id: e3230e83ac674e5c870e04fe8c54023f
+run_name: efficient-shad-663
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758367452570
+status: 4
+tags: []
+user_id: wouter

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/wouter/Documents/HAN/3_Deep%20Learning%20and%20Model%20Deployment/3_Afternoon%20lessons/GIT/MADS-ML-WMvanHuis-1/mlruns/664786273533462829/6abaac9e9ac14306a4346cb38f22845b/artifacts
+end_time: 1758367943912
+entry_point_name: ''
+experiment_id: '664786273533462829'
+lifecycle_stage: active
+run_id: 6abaac9e9ac14306a4346cb38f22845b
+run_name: clumsy-swan-904
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758367943587
+status: 4
+tags: []
+user_id: wouter

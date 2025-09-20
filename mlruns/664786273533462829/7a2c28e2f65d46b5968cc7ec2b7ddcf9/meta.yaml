@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/wouter/Documents/HAN/3_Deep%20Learning%20and%20Model%20Deployment/3_Afternoon%20lessons/GIT/MADS-ML-WMvanHuis-1/mlruns/664786273533462829/7a2c28e2f65d46b5968cc7ec2b7ddcf9/artifacts
+end_time: 1758367923812
+entry_point_name: ''
+experiment_id: '664786273533462829'
+lifecycle_stage: active
+run_id: 7a2c28e2f65d46b5968cc7ec2b7ddcf9
+run_name: puzzled-cod-227
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758367923480
+status: 4
+tags: []
+user_id: wouter
