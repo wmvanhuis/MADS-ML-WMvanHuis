@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/wouter/Documents/HAN/3_Deep Learning and Model Deployment/3_Afternoon
+  lessons/GIT/MADS-ML-WMvanHuis-1/2-hypertuning-mlflow/mlruns/225965079130048734/4beb3c8f8c2845cfb75ede3cb7a29d41/artifacts
+end_time: 1758362965372
+entry_point_name: ''
+experiment_id: '225965079130048734'
+lifecycle_stage: active
+run_id: 4beb3c8f8c2845cfb75ede3cb7a29d41
+run_name: funny-wolf-194
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758362965367
+status: 4
+tags: []
+user_id: wouter

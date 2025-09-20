@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/wouter/Documents/HAN/3_Deep Learning and Model Deployment/3_Afternoon
+  lessons/GIT/MADS-ML-WMvanHuis-1/2-hypertuning-mlflow/mlruns/225965079130048734/e6ba87b21970464b94079d4276e3615d/artifacts
+end_time: 1758364434044
+entry_point_name: ''
+experiment_id: '225965079130048734'
+lifecycle_stage: active
+run_id: e6ba87b21970464b94079d4276e3615d
+run_name: thundering-seal-488
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758364434039
+status: 4
+tags: []
+user_id: wouter

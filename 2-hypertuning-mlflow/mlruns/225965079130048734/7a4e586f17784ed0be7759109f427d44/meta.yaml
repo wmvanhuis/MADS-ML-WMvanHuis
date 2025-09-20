@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/wouter/Documents/HAN/3_Deep Learning and Model Deployment/3_Afternoon
+  lessons/GIT/MADS-ML-WMvanHuis-1/2-hypertuning-mlflow/mlruns/225965079130048734/7a4e586f17784ed0be7759109f427d44/artifacts
+end_time: 1758366669347
+entry_point_name: ''
+experiment_id: '225965079130048734'
+lifecycle_stage: active
+run_id: 7a4e586f17784ed0be7759109f427d44
+run_name: skittish-stoat-245
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758366669341
+status: 4
+tags: []
+user_id: wouter

@@ -1,0 +1,7 @@
+artifact_location: file:///Users/wouter/Documents/HAN/3_Deep Learning and Model Deployment/3_Afternoon
+  lessons/GIT/MADS-ML-WMvanHuis-1/2-hypertuning-mlflow/mlruns/225965079130048734
+creation_time: 1758362964889
+experiment_id: '225965079130048734'
+last_update_time: 1758362964889
+lifecycle_stage: active
+name: 03_mlflow_with_norm_dropout_conv
