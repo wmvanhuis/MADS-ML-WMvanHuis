@@ -13,6 +13,17 @@ Ik heb uiteindelijk met onderstaande settings >99% accuracy weten te behalen.
     bidirectional=True,  
     dropout=0.3 
 
+Nu met LSTM/GRU gewerkt.
+Eerste run met LSTM gedaan.
+zelfde input parameters gehouden als bij de RNN.
+Accuracy nu >98%, dus iets lager dan met RNN.
+
+Tweede run met GRU.
+Zrelfde parameters weer
+Accuracy nu >99%. Net zo goed als RNN.
+Model was wel trager dan alle anderen.
+
+
 
 Find the [notebook](./notebook.ipynb) and the [instructions](./instructions.md)
 
