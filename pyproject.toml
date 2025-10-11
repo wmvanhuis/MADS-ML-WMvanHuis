@@ -16,3 +16,8 @@ dev = [
     "notebooktester>=0.2.1",
     "ruff>=0.12.11",
 ]
+
+[tool.uv.workspace]
+members = [
+    "4-hypertuning-ray/myproject",
+]
