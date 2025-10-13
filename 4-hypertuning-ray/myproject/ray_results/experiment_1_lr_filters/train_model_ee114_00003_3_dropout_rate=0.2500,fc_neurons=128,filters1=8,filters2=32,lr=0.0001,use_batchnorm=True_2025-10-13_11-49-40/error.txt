@@ -1,0 +1,21 @@
+Failure # 1 (occurred at 2025-10-13_11-57-09)
+[36mray::ImplicitFunc.train()[39m (pid=28094, ip=127.0.0.1, actor_id=2f97496a90299fdbd601a08301000000, repr=train_model)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wouter/Documents/HAN/3_Deep_Learning_and_Model_Deployment/3_Afternoon_lessons/GIT/MADS-ML-WMvanHuis-1/.venv/lib/python3.12/site-packages/ray/tune/trainable/trainable.py", line 331, in train
+    raise skipped from exception_cause(skipped)
+  File "/Users/wouter/Documents/HAN/3_Deep_Learning_and_Model_Deployment/3_Afternoon_lessons/GIT/MADS-ML-WMvanHuis-1/.venv/lib/python3.12/site-packages/ray/air/_internal/util.py", line 107, in run
+    self._ret = self._target(*self._args, **self._kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wouter/Documents/HAN/3_Deep_Learning_and_Model_Deployment/3_Afternoon_lessons/GIT/MADS-ML-WMvanHuis-1/.venv/lib/python3.12/site-packages/ray/tune/trainable/function_trainable.py", line 45, in <lambda>
+    training_func=lambda: self._trainable_func(self.config),
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wouter/Documents/HAN/3_Deep_Learning_and_Model_Deployment/3_Afternoon_lessons/GIT/MADS-ML-WMvanHuis-1/.venv/lib/python3.12/site-packages/ray/tune/trainable/function_trainable.py", line 261, in _trainable_func
+    output = fn()
+             ^^^^
+  File "/var/folders/7f/cm0_g74x39l3qzsj_6y2t5dm0000gn/T/ipykernel_27622/1512105725.py", line 36, in train_model
+  File "/Users/wouter/Documents/HAN/3_Deep_Learning_and_Model_Deployment/3_Afternoon_lessons/GIT/MADS-ML-WMvanHuis-1/.venv/lib/python3.12/site-packages/ray/train/_internal/session.py", line 663, in wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+TypeError: report() got an unexpected keyword argument 'accuracy'
