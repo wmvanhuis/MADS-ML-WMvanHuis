@@ -1,0 +1,8 @@
+{
+  "dropout_rate": 0.25,
+  "fc_neurons": 128,
+  "filters1": 8,
+  "filters2": 32,
+  "lr": 0.001,
+  "use_batchnorm": true
+}
