@@ -22,22 +22,22 @@ acc_vs_dropout.png, acc_vs_num_conv_blocks.png, lr_weight_decay_scatter.png, and
 For rapid visual validation of hypotheses and a tidy table for the report.
 
 
-# Hypotheses
-## H1. Moderate dropout helps
+## Hypotheses
+### H1. Moderate dropout helps
 A moderate dropout_p (≈0.2–0.4) will increase validation accuracy versus no dropout; too high dropout (>0.5) will hurt performance.
 
-## H2. BatchNorm stabilizes & improves
+### H2. BatchNorm stabilizes & improves
 norm_type="batch" will (a) widen the effective learning-rate range and (b) slightly increase best-achievable validation accuracy compared to no normalization.
 
-## H3. More conv blocks help up to a point
+### H3. More conv blocks help up to a point
 Increasing num_conv_blocks from 0 → 1–2 will improve accuracy; beyond that, returns diminish or reverse due to over-downsampling/overfitting.
 
-## Results:
+### Results:
 - Dropout vs accuracy (acc_vs_dropout.png): U-shaped trend; peak typically around 0.2–0.35. With BatchNorm enabled, peak can shift slightly lower; with no normalization, dropout benefit is more pronounced.
 - conv blocks (acc_vs_num_conv_blocks.png): 1–2 blocks outperform 0; 3 offers little/no gain (sometimes small drop), suggesting capacity vs. over-downsampling trade-off on Fashion.
 
 
-# Discussion
+## Discussion
 Why BatchNorm helps: Normalizes activations to reduce internal covariate shift, enabling larger learning rates and faster, stabler convergence. In shallow CNNs on Fashion, gains are modest but consistent.
 
 Why moderate dropout helps: It reduces co-adaptation and overfitting; too much dropout harms representation quality and slows learning, explaining the U-shape.
@@ -50,16 +50,16 @@ Limitations: Small max_evals, single dataset, no strong augmentation, single ran
 
 
 
-# Conclusion
+## Conclusion
 Turning on BatchNorm and using moderate dropout (~0.25) consistently improves validation accuracy over the baseline network.
 One or two conv blocks strike the best balance of capacity and preservation of spatial detail on Fashion.
 Stable, high-performing runs sit around LR ≈ 1e-3 with WD ≈ 1e-4–1e-3.
 
-## Recommended config to start from:
+### Recommended config to start from:
 norm_type="batch", dropout_p≈0.25, num_conv_blocks=1–2, conv_out_channels≈filters, conv_kernel_size=3, pool_type=max, lr≈1e-3, wd≈5e-4, optimizer=adam/adamw.
 
 
-# Reflection
+## Reflection
 Steps are understandable and I understand why I am doing this, but scripting is a bit difficult and how to visualize results.
 I would like some more explaination about this.
 What are best practices etc.
@@ -67,4 +67,4 @@ What are best practices etc.
 
 Find the [instructions](./instructions.md)
 
-[Go back to Homepage](../README.md
+[Go back to Homepage](../README.md)
