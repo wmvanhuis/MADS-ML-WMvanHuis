@@ -19,7 +19,7 @@ The loss/test is now lower, which is good.
 The loss/train seems the same as before.
 The accuracy is better, now around 0.88, before 0.84.
 
-Result
+## Result
 With adding more epochs and units the errors became lower and the accuracy became higher.
 
 
