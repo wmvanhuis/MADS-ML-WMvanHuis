@@ -1,4 +1,4 @@
-# Summary Week 7
+# Summary week 7
 Voor de Ethics lessen heb ik de twee assignments gemaakt. 
 Deze zijn dan ook te vinden in deze repo.
 
@@ -7,3 +7,5 @@ Deze zijn dan ook te vinden in deze repo.
 
 ## Ethics Assignment 2: 
 [Dating app](./Portfolio Assignment 2 - WMvanHuis - Dating app.pdf) 
+
+[Go back to Homepage](../README.md)
